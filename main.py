@@ -736,7 +736,7 @@ def main():
     """Main entry point with improved security and error handling"""
     try:
         # Load configuration from environment variables or use defaults
-        BOT_API_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8656832077:AAHltVVyZ9wAY74l8XN785zb2HrZ-yBqlrw")
+        BOT_API_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8932275346:AAFoze_FdLUgWaHriEiyjGZMwr4aw2J1ZEI")
         ADMIN_CHAT_IDS = os.getenv("ADMIN_CHAT_IDS", "7592705124").split(",")
         PORTAL_ENDPOINT_URL = os.getenv(
             "PORTAL_ENDPOINT_URL",
